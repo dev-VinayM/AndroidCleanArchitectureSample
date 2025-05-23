@@ -54,7 +54,6 @@ android {
 dependencies {
     //app module knows about all other modules
     implementation(project(":domain"))
-    implementation(project(":data"))
     implementation(project(":presentation"))
 
     //hilt
